@@ -3,7 +3,6 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/config";
 import { useAuth } from "./useAuth";
 import { useState } from 'react'
-import { signInWithEmailAndPassword } from "firebase/auth";
 
 export const useLogin = () => {
     // basic form state managers 
